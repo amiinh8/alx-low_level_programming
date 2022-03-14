@@ -1,14 +1,15 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- *
- *Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
-  {
+{
 	int n, m;
 
 	srand(time(0));
