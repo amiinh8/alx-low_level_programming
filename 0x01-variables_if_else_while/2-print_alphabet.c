@@ -18,14 +18,6 @@ int main(void)
 		ch++;
 		i++;
 	}
-	ch = 'A';
-	i = 0;
-	while (i < 26)
-	{
-		putchar(ch);
-		ch++;
-		i++;
-	}
 	putchar('\n');
 	return (0);
 }
