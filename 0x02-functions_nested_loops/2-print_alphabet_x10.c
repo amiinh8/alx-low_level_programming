@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 {
 	int i;
 	char cmd[] = "gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c ";
-	char cmd2[94] = "1-main.c 1-alphabet.c -o 1-alphabet && ./1-alphabet";
+	
 
 	strcpy(cmd, strcat(cmd, cmd2));
 	for (i = 0; i <= 9; i++)
