@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- *_isdigit - if is a digit
+ * _isdigit - if is a digit
  *@c: print int
- *Retur: Always 0.
+ * Return: Always 0.
  */
 
-int_isdigit(int c)
+int _isdigit(int c)
 {
-  if ( c >= 78 && c <= 87)
-    {
-      return (1);
-    }
-  else
-    {
-      return (0);
-    }
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
+
+else
+{
+return (0);
+}
 }
